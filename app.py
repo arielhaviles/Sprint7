@@ -4,7 +4,7 @@ import pandas as pd
 import plotly as py
 
 car_data = pd.read_csv(
-    'C:\\Users\\ariel\\Documents\\TripleTen\\Proyecto_Sprint_7\\Sprint7\\vehicles_us.csv')
+    'https://github.com/arielhaviles/Sprint7/blob/main/vehicles_us.csv')
 
 df = pd.DataFrame(car_data)
 
